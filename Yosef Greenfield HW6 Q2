@@ -1,1 +1,15 @@
+"""
+קלוט מהמשתמש:
 
+מספר שורות
+מספר עמודות
+הדפס מלבן של * לפי המידות
+
+דוגמה: אם נקלטו שורות 3 ועמודות 5 אז הפלט צריך להיות
+"""
+
+rows: int = int(input('enter number of rows:'))
+cols: int = int(input('enter number of columns:'))
+row = '*' * cols
+for i in range(rows):
+    print(row)
